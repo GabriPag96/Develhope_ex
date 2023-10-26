@@ -5,8 +5,13 @@ public class Ex_18 {
 
     public static void main(String [] args){
         int valoreMassimo = 5;
-        int sommaValore = 0;
+
         int valorePartenza = 1;
+
+        somma(valoreMassimo, valorePartenza);
+    }
+    public static void somma(int valoreMassimo, int valorePartenza){
+        int sommaValore = 0;
 
         while (valorePartenza <= valoreMassimo){
             sommaValore += valorePartenza;
