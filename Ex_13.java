@@ -7,6 +7,7 @@ public class Ex_13 {
     }
     public static void verificaPari(int num1){
         boolean pari = num1 % 2 == 0;
+
         System.out.println(pari);
     }
 }
