@@ -1,30 +1,19 @@
 public class Ex_11 {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
 
-        int num1 = 5;
-        int num2 = 3;
+        char a = 'A';
+        char b = 'B';
 
-        System.out.println(confronto1(num1, num2));
+        System.out.println(a);
+        System.out.println(b);
 
-        System.out.println(confronto2(num1, num2));
-
-        System.out.println(confronto3(num1, num2));
-
-        System.out.println(confronto4(num1, num2));
+        System.out.println(equalChar(a ,b));
+        System.out.println(disequalChar(a ,b));
     }
-    public static boolean confronto1(int num1, int num2){
-        return num1 != num2;
+    public static boolean equalChar(char a,char b){
+    return a == b;
     }
-    public static boolean confronto2(int num1, int num2){
-        return num1 > num2;
-    }
-    public static boolean confronto3(int num1, int num2){
-        return num1 < num2;
-    }
-
-    public static boolean confronto4(int num1, int num2){
-        return num1 == num2;
+    public static boolean disequalChar(char a,char b){
+        return a != b;
     }
 }
-
-
