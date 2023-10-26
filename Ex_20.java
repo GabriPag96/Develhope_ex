@@ -7,6 +7,9 @@ public class Ex_20 {
         int numero = 6;
         int risultati = 3;
 
+        countdown(numero, risultati);
+    }
+    public static void countdown(int numero, int risultati){
         for (int i = numero;i > numero - risultati; i--){
             System.out.println(i);
         }

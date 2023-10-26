@@ -5,12 +5,14 @@ public class Ex_19 {
     public static void main(String [] args){
         int valNum = 6;
 
+        tabellinaNum(valNum);
+    }
+    public static void tabellinaNum(int valNum){
         for (int tabellina = 1; tabellina <= 10; tabellina++){
             int risultato = valNum * tabellina;
             System.out.println(valNum + " * " + tabellina + " = " + risultato);
         }
     }
-
 }
 
 
