@@ -2,7 +2,6 @@ public class Ex_16 {
     public static void main(String[] args ){
 
         int dayNum = 5;
-
         dayCount(dayNum);
     }
     public static void dayCount(int dayNum){
