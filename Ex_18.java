@@ -8,10 +8,10 @@ public class Ex_18 {
 
         int valorePartenza = 1;
 
-        //somma(valoreMassimo, valorePartenza); //con metodo void.
-        System.out.println(somma(valoreMassimo, valorePartenza));
+        somma(valoreMassimo, valorePartenza); //con metodo void.
+        //System.out.println(somma(valoreMassimo, valorePartenza));//stampa 2 volte l'ultimo numero.
     }
-    public static int somma(int valoreMassimo, int valorePartenza){
+    public static void somma(int valoreMassimo, int valorePartenza){
         int sommaValore = 0;
 
         while (valorePartenza <= valoreMassimo){
@@ -19,6 +19,6 @@ public class Ex_18 {
             valorePartenza++;
             System.out.println(sommaValore);
         }
-        return sommaValore;
+        //return sommaValore;
     }
 }
