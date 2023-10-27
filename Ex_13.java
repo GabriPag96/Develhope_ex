@@ -5,9 +5,9 @@ public class Ex_13 {
 
         verificaPari(num1);
     }
-    public static void verificaPari(int num1){
+    public static boolean verificaPari(int num1){
         boolean pari = num1 % 2 == 0;
-
         System.out.println(pari);
+        return pari;
     }
 }
