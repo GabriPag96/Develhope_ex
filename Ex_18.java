@@ -8,7 +8,7 @@ public class Ex_18 {
 
         int valorePartenza = 1;
 
-        //somma(valoreMassimo, valorePartenza);
+        //somma(valoreMassimo, valorePartenza); //con metodo void.
         System.out.println(somma(valoreMassimo, valorePartenza));
     }
     public static int somma(int valoreMassimo, int valorePartenza){
