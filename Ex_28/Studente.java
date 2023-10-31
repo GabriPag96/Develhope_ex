@@ -2,10 +2,42 @@ package Ex_28;
 
 public class Studente {
 
-    String nome;
-    String cognome;
-    int age;
-    int id;
+    private String nome;
+    private String cognome;
+    private int age;
+    private int id;
+
+    public String getNome(){
+        return nome;
+    }
+
+    public String getCognome(){
+        return cognome;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public int getId(){
+        return id;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public void setCognome(String cognome){
+        this.cognome = cognome;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public void setId(int id){
+        this.id = id;
+    }
 
     @Override
     public String toString(){
