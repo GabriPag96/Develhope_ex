@@ -39,6 +39,16 @@ public class Studente {
         this.id = id;
     }
 
+    Studente (String nome, String cognome, int age, int id){
+
+        this.nome = nome;
+        this.cognome = cognome;
+        this.age = age;
+        this.id = id;
+
+
+    }
+
     @Override
     public String toString(){
         return "Studente{" +
@@ -49,13 +59,5 @@ public class Studente {
                 '}';
     }
 
-    Studente (String nome, String cognome, int age, int id){
 
-        this.nome = nome;
-        this.cognome = cognome;
-        this.age = age;
-        this.id = id;
-
-
-    }
 }
