@@ -10,8 +10,8 @@ public class Triangolo extends Forma{
     }
 
     @Override
-    public void calcolaArea() {
+    public double calcolaArea() {
         double area = (base * altezza)/2 ;
-        System.out.println("L'area del triangolo è: " + area);
+        return area;
     }
 }

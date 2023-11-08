@@ -10,8 +10,7 @@ public class Rettangolo extends Forma{
         }
 
         @Override
-        public void calcolaArea() {
-            double area = base * altezza;
-            System.out.println("L'area del rettangolo è: " + area);
+        public double calcolaArea() {
+            return base * altezza;
         }
 }

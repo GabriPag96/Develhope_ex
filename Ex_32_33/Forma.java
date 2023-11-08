@@ -2,6 +2,8 @@ package Ex_32_33;
 
 public class Forma {
 
-    public void calcolaArea(){}
+    public double calcolaArea(){
+        return 0.0;
+    }
 
 }
