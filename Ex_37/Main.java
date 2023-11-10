@@ -9,12 +9,12 @@ public class Main {
     }
     public static String confrontoStringhe(String stringa1, String stringa2){
 
-        StringBuilder confronto = new StringBuilder();
+        StringBuilder confronto = new StringBuilder("le stringhe ");
 
         if (stringa1.compareTo(stringa2) == 0 ){
-            System.out.println("Le stringhe sono uguali");
+            confronto.append("sono uguali.");
         } else {
-            System.out.println("Le due stringhe sono differenti");
+            confronto.append("sono diverse.");
         }
 
         return confronto.toString();
