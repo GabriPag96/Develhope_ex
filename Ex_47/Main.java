@@ -6,6 +6,20 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args){
 
+       HashSet<String> pasta = creazioneHashSet();
+
+
+
+        System.out.println(" Dimensione dell'HashSet prima del clear: " + pasta.size());
+        System.out.println("Elementi dell'HashSet prima del clear: " + pasta);
+
+        pasta.clear();
+
+        System.out.println("Dimensione dell'HashSet dopo il clear: " + pasta.size());
+        System.out.println("Elementi dell'HashSet dopo il clear: " + pasta);
+    }
+    public static HashSet<String> creazioneHashSet(){
+
         HashSet<String> pasta = new HashSet<>();
         pasta.add("Spaghetti");
         pasta.add("Rigatoni");
@@ -22,12 +36,6 @@ public class Main {
             }
         }
 
-        System.out.println(" Dimensione dell'HashSet prima del clear: " + pasta.size());
-        System.out.println("Elementi dell'HashSet prima del clear: " + pasta);
-
-        pasta.clear();
-
-        System.out.println("Dimensione dell'HashSet dopo il clear: " + pasta.size());
-        System.out.println("Elementi dell'HashSet dopo il clear: " + pasta);
+        return pasta;
     }
 }
