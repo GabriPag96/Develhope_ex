@@ -1,20 +1,21 @@
-package Ex_48;
+package Ex_49;
 
 public class Students {
 
     private String name;
-    private int age;
 
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
     public void setName(String name) {
         this.name = name;
+    }
+
+    private int age;
+
+    public int getAge() {
+        return age;
     }
 
     public void setAge(int age) {
@@ -25,6 +26,5 @@ public class Students {
         this.name = name;
         this.age = age;
     }
-
 
 }
