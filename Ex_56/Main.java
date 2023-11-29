@@ -8,9 +8,11 @@ public class Main {
         OffsetDateTime dateExercise = OffsetDateTime.parse("2023-03-01T13:00:00Z");
 
         String dataYear = String.valueOf(dateExercise.getYear());
+        //int dataYear = dateExercise.getYear();
         System.out.println("Anno = " + dataYear);
 
         String dataMonth = String.valueOf(dateExercise.getMonth());
+        //int dataMonth = dateExercise.getMonthValue();
         System.out.println("Mese = " + dataMonth);
 
         String dataDay = String.valueOf(dateExercise.getDayOfMonth());
