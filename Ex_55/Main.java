@@ -9,7 +9,8 @@ public class Main {
 
         OffsetDateTime dateExercise = OffsetDateTime.parse("2023-03-01T13:00:00Z");
 
-        String dateString = dateExercise.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG));
+//        String dateString = dateExercise.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG));
+        String dateString = dateExercise.format(DateTimeFormatter.ofPattern("dd/MMMM/yyyy"));
         System.out.println("Data esercizio = "+ dateString);
     }
 }
